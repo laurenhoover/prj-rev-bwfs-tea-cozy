@@ -1,0 +1,113 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+header {
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+  align-items: center;
+}
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+a {
+  color: seashell;
+}
+h2{
+  margin: 0;
+  padding: 10px;
+}
+h3{
+  margin: 0;
+  padding: 10px;
+}
+h4{
+  margin: 0;
+  padding: 10px;
+}
+.main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#mission {
+  height: 700px;
+  background-image:url("/Users/laurenhoover/Creative Cloud Files/Code/Projects/Tea Cozy/resources/images/img-mission-background.jpg");
+  padding-top: 70px;
+}
+#mission .content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+#featured {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+.item {
+  padding: 5px;
+}
+.item img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  padding: 5px;
+}
+.item span {
+  padding: 5px;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+#locations {
+  background-image: url("/Users/laurenhoover/Creative Cloud Files/Code/Projects/Tea Cozy/resources/images/img-locations-background.jpg");
+  padding-top: 70px;
+  height: 500px;
+}
+#locations .flex-container {
+  margin: auto;
+  width: 1200px;
+}
+.location {
+  margin: 5px 20px;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+#contact {
+  height: 200px;
+  margin: auto;
+}
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
